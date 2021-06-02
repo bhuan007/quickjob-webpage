@@ -5,7 +5,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+
+.shortDescription {
+  width: 50%;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.figmaEmbed {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 900px;
 }
 
 .main {
