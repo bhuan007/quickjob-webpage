@@ -2,11 +2,14 @@ import Head from "next/head";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
+import Navigation from "../components/Navigation";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Navigation />
+
       <Head>
         <title>Quick Job</title>
         <link rel="icon" href="/favicon.ico" />
@@ -43,8 +46,10 @@ export default function Home() {
             allowfullscreen
           ></iframe>
 
+          <h1 className={styles.sectionTitle} id={"introduction"}>
+            Introduction
+          </h1>
           <div className={styles.section}>
-            <h1 className={styles.sectionTitle}>Introduction</h1>
             <h2>Problem and Use Case</h2>
             <p className={styles.bodyText}>
               The problem that our team wanted to solve is to help everyday
@@ -105,8 +110,10 @@ export default function Home() {
             </p>
           </div>
 
+          <h1 className={styles.sectionTitle} id={"userResearch"}>
+            User Research and Personas
+          </h1>
           <div className={styles.section}>
-            <h1 className={styles.sectionTitle}>User Research and Personas</h1>
             <h2>Identifying the Target Users</h2>
             <p className={styles.bodyText}>
               The target user population for this application is day to day
@@ -128,7 +135,6 @@ export default function Home() {
             </p>
 
             <h2>Research Questions, Interviews, and Personas</h2>
-
             <p className={styles.bodyText}>
               The purpose of this research was to understand more about the
               target population of the problem in which we are trying to solve.
@@ -172,7 +178,6 @@ export default function Home() {
               on each answer, briefly writing down the main idea and emotion
               behind each answer.
             </p>
-
             <p className={styles.bodyText}>
               After our interviews, we utilized a Miro Board to first post all
               interview responses as separate notes, initially grouped by
@@ -186,10 +191,8 @@ export default function Home() {
               board in its entirety. Each black note represents a label that
               corresponds to each grouping.
             </p>
-
             <iframe
-              width="768"
-              height="432"
+              className={styles.miroBoard}
               src="https://miro.com/app/live-embed/o9J_lHVwJj0=/?moveToViewport=-323,-1593,10669,5558"
               frameBorder="0"
               scrolling="no"
@@ -201,7 +204,7 @@ export default function Home() {
               of our application.
             </p>
             <h2>Persona Gallery</h2>
-            <Carousel width={400} infiniteLoop emulateTouch>
+            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
                 <img src={"persona1.png"} />
               </div>
@@ -216,8 +219,10 @@ export default function Home() {
             </Carousel>
           </div>
 
+          <h1 className={styles.sectionTitle} id={"wireframe"}>
+            Wireframe
+          </h1>
           <div className={styles.section}>
-            <h1 className={styles.sectionTitle}>Wireframe</h1>
             <h2>Mock Up</h2>
             <p className={styles.bodyText}>
               After creating our user personas and completing user stories, we proceeded to work on

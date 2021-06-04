@@ -1,10 +1,28 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.navContainer {
+  background-color: #212121;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navButton {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navButton:hover {
+  color: #0070f3;
 }
 
 .shortDescription {
@@ -13,8 +31,8 @@
 
 .figmaEmbed {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 500px;
-  height: 900px;
+  width: 400px;
+  height: 800px;
 }
 
 .main {
@@ -31,7 +49,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5% 15% 5% 15%;
+  margin: 0% 15% 5% 15%;
 }
 
 .bodyText {
@@ -40,44 +58,28 @@
 
 .section {
   background-color: #e2e2e2;
-  border-radius: 20px;
+  border-radius: 0px 0px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 40px;
   padding: 20px;
 }
 
 .sectionTitle {
-  color: #0070f3;
-}
-
-.footer {
+  background-color: #0070f3;
+  color: white;
+  font-size: 3rem;
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 5%;
+  text-align: center;
 }
 
 .title {
   color: #0070f3;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
 }
 
 .title {
@@ -107,53 +109,37 @@
   display: block;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+.miroBoard {
+  width: 850px;
+  height: 500px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+.carousel {
+  width: 400px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
+@media (max-width: 500px) {
+  .figmaEmbed {
     width: 100%;
-    flex-direction: column;
+    height: 600px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navButton {
+    padding: 10px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+  .miroBoard {
+    width: 100%;
+    height: 500px;
+  }
+
+  .sectionTitle,
+  .section {
+    padding: 5px;
   }
 }
