@@ -206,15 +206,15 @@ export default function Home() {
             <h2>Persona Gallery</h2>
             <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
-                <img src={"persona1.png"} />
+                <img src={"persona1.png"} alt = {"persona 1"} />
               </div>
 
               <div>
-                <img src={"persona2.png"} />
+                <img src={"persona2.png"} alt = {"persona 2"} />
               </div>
 
               <div>
-                <img src={"persona3.png"} />
+                <img src={"persona3.png"} alt = {"persona 3"}/>
               </div>
             </Carousel>
           </div>
@@ -250,62 +250,62 @@ export default function Home() {
             <h2>Wireframe Evaluations</h2>
             <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
-                <img src={"wire1.png"} />
+                <img src={"wire1.png"} alt = {"wire 1"}/>
               </div>
 
               <div>
-                <img src={"wire2.png"} />
+                <img src={"wire2.png"} alt = {"wire 2"}/>
               </div>
 
               <div>
-                <img src={"wire3.png"} />
+                <img src={"wire3.png"} alt = {"wire 3"}/>
               </div>
 
               <div>
-                <img src={"wire4.png"} />
+                <img src={"wire4.png"}  alt = {"wire 4"}/>
               </div>
 
               <div>
-                <img src={"wire5.png"} />
+                <img src={"wire5.png"} alt = {"wire 5"}/>
               </div>
 
               <div>
-                <img src={"wire6.png"} />
+                <img src={"wire6.png"}  alt = {"wire 6"}/>
               </div>
             </Carousel>
 
             <h2>Heuristic Evaluations</h2>
             <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
-                <img src={"heur1.png"} />
+                <img src={"heur1.png"}  alt = {"heur 1"}/>
               </div>
 
               <div>
-                <img src={"heur2.png"} />
+                <img src={"heur2.png"}  alt = {"heur 2"}/>
               </div>
 
               <div>
-                <img src={"heur3.png"} />
+                <img src={"heur3.png"}  alt = {"heur 3"} />
               </div>
 
               <div>
-                <img src={"heur4.png"} />
+                <img src={"heur4.png"}  alt = {"heur 4"}/>
               </div>
 
               <div>
-                <img src={"heur5.png"} />
+                <img src={"heur5.png"}  alt = {"heur 5"}/>
               </div>
 
               <div>
-                <img src={"heur6.png"} />
+                <img src={"heur6.png"}  alt = {"heur 6"} />
               </div>
 
               <div>
-                <img src={"heur7.png"} />
+                <img src={"heur7.png"} alt = {"heur 7"} />
               </div>
 
               <div>
-                <img src={"heur8.png"} />
+                <img src={"heur8.png"} alt = {"heur 8"}/>
               </div>
             </Carousel>
           </div>
