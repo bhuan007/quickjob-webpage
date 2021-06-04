@@ -55,7 +55,17 @@ export default function Home() {
             inconvenience of doing that job themselves, while the other user
             would have access to earn quick cash.
           </p>
-
+          <h1>Methods in chronological order</h1>
+          <p>
+          <ul>
+            <li>Conduct interview for User Research</li>
+            <li>Define epics and user stories</li>
+            <li>Draw initial wireframe</li>
+            <li>Conduct interview for User Evaluation</li>
+            <li>Perform Heuristic Evaluation individually and as a group</li>
+            <li>Draw High-Fidelity Mockup</li>
+          </ul>
+          </p> 
           <h1>Competitive Analysis</h1>
           <p>
             For our application’s competitive analysis, we found three
