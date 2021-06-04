@@ -11,11 +11,6 @@
   width: 50%;
 }
 
-.mainBody {
-  display: flex;
-  flex-direction: column;
-}
-
 .figmaEmbed {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 500px;
@@ -29,6 +24,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 15% 5% 15%;
+}
+
+.bodyText {
+  width: 60%;
+}
+
+.section {
+  background-color: #e2e2e2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.sectionTitle {
+  color: #0070f3;
 }
 
 .footer {
@@ -47,9 +70,8 @@
   flex-grow: 1;
 }
 
-.title a {
+.title {
   color: #0070f3;
-  text-decoration: none;
 }
 
 .title a:hover,
