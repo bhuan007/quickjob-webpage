@@ -230,6 +230,70 @@ export default function Home() {
               }
               allowfullscreen
             ></iframe>
+
+            <h2>Wireframe Evaluations</h2>
+            <Carousel width={450} infiniteLoop emulateTouch>
+              <div>
+                <img src={"wire1.png"} />
+              </div>
+
+              <div>
+                <img src={"wire2.png"} />
+              </div>
+
+              <div>
+                <img src={"wire3.png"} />
+              </div>
+
+              <div>
+                <img src={"wire4.png"} />
+              </div>
+
+              <div>
+                <img src={"wire5.png"} />
+              </div>
+
+              <div>
+                <img src={"wire6.png"} />
+              </div>
+            </Carousel>
+
+
+            <h2>Heuristic Evaluations</h2>
+            <Carousel width={450} infiniteLoop emulateTouch>
+              <div>
+                <img src={"heur1.png"} />
+              </div>
+
+              <div>
+                <img src={"heur2.png"} />
+              </div>
+
+              <div>
+                <img src={"heur3.png"} />
+              </div>
+
+              <div>
+                <img src={"heur4.png"} />
+              </div>
+
+              <div>
+                <img src={"heur5.png"} />
+              </div>
+
+              <div>
+                <img src={"heur6.png"} />
+              </div>
+
+              <div>
+                <img src={"heur7.png"} />
+              </div>
+
+              <div>
+                <img src={"heur8.png"} />
+              </div>
+            </Carousel>
+
           </div>
         </div>
       </main>
