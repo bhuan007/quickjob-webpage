@@ -225,19 +225,19 @@ export default function Home() {
           <div className={styles.section}>
             <h2>Mock Up</h2>
             <p className={styles.bodyText}>
-              After creating our user personas and completing user stories, we proceeded to work on
-              the first iteration of our wireframes. Placeholders and fake text were used to represent
-              tentative content depending on the user or the specific activity.
-              The following were the most important functionalities implemented in our initial wireframes, 
-              based on priorities of our user stories:
-
-                <li> A user can either find job or request job </li>
-                <li> A user can apply search criteria to find a job</li>
-                <li> A user can message job finder or job requester</li>
-                <li> A user can post detailed job description</li>  
-                <li> A user can send a job request from job description page</li>
-                <li> A user has a profile and has a rating </li>
-                <li> A user can modify the app's Settings </li>
+              After creating our user personas and completing user stories, we
+              proceeded to work on the first iteration of our wireframes.
+              Placeholders and fake text were used to represent tentative
+              content depending on the user or the specific activity. The
+              following were the most important functionalities implemented in
+              our initial wireframes, based on priorities of our user stories:
+              <li> A user can either find job or request job </li>
+              <li> A user can apply search criteria to find a job</li>
+              <li> A user can message job finder or job requester</li>
+              <li> A user can post detailed job description</li>
+              <li> A user can send a job request from job description page</li>
+              <li> A user has a profile and has a rating </li>
+              <li> A user can modify the app's Settings </li>
             </p>
             <iframe
               className={styles.figmaEmbed}
@@ -248,7 +248,7 @@ export default function Home() {
             ></iframe>
 
             <h2>Wireframe Evaluations</h2>
-            <Carousel width={450} infiniteLoop emulateTouch>
+            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
                 <img src={"wire1.png"} />
               </div>
@@ -274,9 +274,8 @@ export default function Home() {
               </div>
             </Carousel>
 
-
             <h2>Heuristic Evaluations</h2>
-            <Carousel width={450} infiniteLoop emulateTouch>
+            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
               <div>
                 <img src={"heur1.png"} />
               </div>
@@ -309,7 +308,6 @@ export default function Home() {
                 <img src={"heur8.png"} />
               </div>
             </Carousel>
-
           </div>
         </div>
       </main>
