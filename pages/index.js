@@ -167,7 +167,8 @@ export default function Home() {
             entirety. Each black note represents a label that corresponds to
             each grouping.
           </p>
-          <img src={"/Affinity.png"} width={800} />
+           vast amount of notes that 
+           <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lHVwJj0=/?moveToViewport=-323,-1593,10669,5558" frameBorder="0" scrolling="no" allowFullScreen></iframe>
           <p>
             Processing the results from the research findings, we generated 3
             fictitional user personas that represent 3 different type of users
