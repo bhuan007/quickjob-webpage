@@ -112,6 +112,8 @@
 .miroBoard {
   width: 850px;
   height: 500px;
+  overflow: hidden;
+  border-width: 0px;
 }
 
 .carousel {
@@ -131,10 +133,10 @@
   }
 
   .carousel {
-    width: 100%;
+    width: 75%;
   }
   .miroBoard {
-    width: 100%;
+    width: 75%;
     height: 500px;
   }
 

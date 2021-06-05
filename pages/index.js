@@ -73,18 +73,14 @@ export default function Home() {
               earn quick cash.
             </p>
             <h2>Methods in chronological order</h2>
-            <p>
-              <ul>
-                <li>Conduct interview for User Research</li>
-                <li>Define epics and user stories</li>
-                <li>Draw initial wireframe</li>
-                <li>Conduct interview for User Evaluation</li>
-                <li>
-                  Perform Heuristic Evaluation individually and as a group
-                </li>
-                <li>Draw High-Fidelity Mockup</li>
-              </ul>
-            </p>
+            <ul>
+              <li>Conduct interview for User Research</li>
+              <li>Define epics and user stories</li>
+              <li>Draw initial wireframe</li>
+              <li>Conduct interview for User Evaluation</li>
+              <li>Perform Heuristic Evaluation individually and as a group</li>
+              <li>Draw High-Fidelity Mockup</li>
+            </ul>
             <h2>Competitive Analysis</h2>
             <p className={styles.bodyText}>
               For our application’s competitive analysis, we found three
@@ -194,8 +190,6 @@ export default function Home() {
             <iframe
               className={styles.miroBoard}
               src="https://miro.com/app/live-embed/o9J_lHVwJj0=/?moveToViewport=-323,-1593,10669,5558"
-              frameBorder="0"
-              scrolling="no"
               allowFullScreen
             ></iframe>
             <p className={styles.bodyText}>
@@ -204,17 +198,23 @@ export default function Home() {
               of our application.
             </p>
             <h2>Persona Gallery</h2>
-            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
+            <Carousel
+              className={styles.carousel}
+              infiniteLoop
+              emulateTouch
+              showIndicators={false}
+              showThumbs={false}
+            >
               <div>
-                <img src={"persona1.png"} alt = {"persona 1"} />
+                <img src={"persona1.png"} alt={"persona 1"} />
               </div>
 
               <div>
-                <img src={"persona2.png"} alt = {"persona 2"} />
+                <img src={"persona2.png"} alt={"persona 2"} />
               </div>
 
               <div>
-                <img src={"persona3.png"} alt = {"persona 3"}/>
+                <img src={"persona3.png"} alt={"persona 3"} />
               </div>
             </Carousel>
           </div>
@@ -231,13 +231,15 @@ export default function Home() {
               content depending on the user or the specific activity. The
               following were the most important functionalities implemented in
               our initial wireframes, based on priorities of our user stories:
-              <li> A user can either find job or request job </li>
-              <li> A user can apply search criteria to find a job</li>
-              <li> A user can message job finder or job requester</li>
-              <li> A user can post detailed job description</li>
-              <li> A user can send a job request from job description page</li>
-              <li> A user has a profile and has a rating </li>
-              <li> A user can modify the app's Settings </li>
+              <ul>
+                <li> A user can either find job or request job </li>
+                <li> A user can apply search criteria to find a job</li>
+                <li> A user can message job finder or job requester</li>
+                <li> A user can post detailed job description</li>
+                <li>A user can send a job request from job description page</li>
+                <li> A user has a profile and has a rating </li>
+                <li> A user can modify the app's Settings </li>
+              </ul>
             </p>
             <iframe
               className={styles.figmaEmbed}
@@ -248,64 +250,76 @@ export default function Home() {
             ></iframe>
 
             <h2>Wireframe Evaluations</h2>
-            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
+            <Carousel
+              className={styles.carousel}
+              infiniteLoop
+              emulateTouch
+              showIndicators={false}
+              showThumbs={false}
+            >
               <div>
-                <img src={"wire1.png"} alt = {"wire 1"}/>
+                <img src={"wire1.png"} alt={"wire 1"} />
               </div>
 
               <div>
-                <img src={"wire2.png"} alt = {"wire 2"}/>
+                <img src={"wire2.png"} alt={"wire 2"} />
               </div>
 
               <div>
-                <img src={"wire3.png"} alt = {"wire 3"}/>
+                <img src={"wire3.png"} alt={"wire 3"} />
               </div>
 
               <div>
-                <img src={"wire4.png"}  alt = {"wire 4"}/>
+                <img src={"wire4.png"} alt={"wire 4"} />
               </div>
 
               <div>
-                <img src={"wire5.png"} alt = {"wire 5"}/>
+                <img src={"wire5.png"} alt={"wire 5"} />
               </div>
 
               <div>
-                <img src={"wire6.png"}  alt = {"wire 6"}/>
+                <img src={"wire6.png"} alt={"wire 6"} />
               </div>
             </Carousel>
 
             <h2>Heuristic Evaluations</h2>
-            <Carousel className={styles.carousel} infiniteLoop emulateTouch>
+            <Carousel
+              className={styles.carousel}
+              infiniteLoop
+              emulateTouch
+              showIndicators={false}
+              showThumbs={false}
+            >
               <div>
-                <img src={"heur1.png"}  alt = {"heur 1"}/>
+                <img src={"heur1.png"} alt={"heur 1"} />
               </div>
 
               <div>
-                <img src={"heur2.png"}  alt = {"heur 2"}/>
+                <img src={"heur2.png"} alt={"heur 2"} />
               </div>
 
               <div>
-                <img src={"heur3.png"}  alt = {"heur 3"} />
+                <img src={"heur3.png"} alt={"heur 3"} />
               </div>
 
               <div>
-                <img src={"heur4.png"}  alt = {"heur 4"}/>
+                <img src={"heur4.png"} alt={"heur 4"} />
               </div>
 
               <div>
-                <img src={"heur5.png"}  alt = {"heur 5"}/>
+                <img src={"heur5.png"} alt={"heur 5"} />
               </div>
 
               <div>
-                <img src={"heur6.png"}  alt = {"heur 6"} />
+                <img src={"heur6.png"} alt={"heur 6"} />
               </div>
 
               <div>
-                <img src={"heur7.png"} alt = {"heur 7"} />
+                <img src={"heur7.png"} alt={"heur 7"} />
               </div>
 
               <div>
-                <img src={"heur8.png"} alt = {"heur 8"}/>
+                <img src={"heur8.png"} alt={"heur 8"} />
               </div>
             </Carousel>
           </div>
